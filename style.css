@@ -46,10 +46,12 @@ body {
     letter-spacing: -3px;
     line-height: 110px;
 }
+
 #intro h2 {
     font-size: 100px;
     letter-spacing: -3px;
     line-height: 110px;
+    color: #4e4e4e;
 }
 
 #place {
@@ -119,14 +121,15 @@ body {
     display: flex;
     justify-content: space-between;
     width: 90%;
-    margin: 0 5%;
-    padding: 40px 0;
+    margin: 5%;
+    padding: 40px;
     border-top: 3px solid black;
+    border-bottom: 3px solid black;
 }
 
 #work1 {
     /* background-color: green; */
-    width: 35%;
+    width: 20%;
     border-right: 3px solid black;
     display: flex;
     justify-content: space-between;
@@ -135,7 +138,7 @@ body {
 
 #work2 {
     /* background-color: blue; */
-    width: 65%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -160,31 +163,37 @@ body {
     /* background-color: orange; */
     width: 50%;
     border-right: 3px solid black;
+    padding: 20px;
 }
 
 #work212 {
     /* background-color: skyblue; */
     width: 45%;
+    padding: 20px;
 }
 
 #work221 {
     /* background-color: aqua; */
     width: 50%;
     border-right: 3px solid black;
+    padding: 20px;
 }
 
 #work222 {
     /* background-color: blueviolet; */
     width: 45%;
+    padding: 20px;
 }
 
 #work h5,
 i {
-    font-size: 42px;
+    font-size: 32px;
+    padding-bottom: 16px;
 }
 
 #work p {
-    font-size: 20px;
+    font-size: 24px;
+    color: #252525;
 }
 
 
@@ -225,21 +234,33 @@ i {
 #part2 {
     /* background-color: red; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 50px;
     padding-top: 14%;
 }
 
-#part2A, #part2B, #part2C {
+#part2A,
+#part2B,
+#part2C {
     /* background-color: blue; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-#part2 a, #part2 h2 {
+#part2 a,
+#part2 h2 {
     text-decoration: none;
     color: rgb(100, 100, 100);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+}
+
+#part2 h2 {
+    text-decoration: none;
+    color: whitesmoke;
     font-size: 20px;
     font-weight: bold;
     padding: 12px;
@@ -256,5 +277,5 @@ i {
     font-size: 20px;
     font-weight: 600;
     letter-spacing: -1px;
-    color: whitesmoke;
+    color: rgb(175, 175, 175);
 }
